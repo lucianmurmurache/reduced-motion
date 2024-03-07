@@ -11,7 +11,7 @@
     "dist/"
   ],
   "exports": {
-    "./css": "./dist/styles.min.css"
+    "./css": "./dist/index.min.css"
   },
   "peerDependencies": {
     "tailwindcss": "^3.0.0"

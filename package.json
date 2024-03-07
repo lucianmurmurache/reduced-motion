@@ -1,8 +1,9 @@
 {
   "name": "reduced-motion",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A simple, lighweight package that makes sure your animations do not run when the user motion preference is disabled.",
   "main": "index.js",
+  "style": "./dist/index.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "postcss css/*.css --use autoprefixer cssnano -o dist/index.min.css"
@@ -13,11 +14,21 @@
   "exports": {
     "./css": "./dist/index.min.css"
   },
-  "peerDependencies": {
-    "tailwindcss": "^3.0.0"
+  "homepage": "https://github.com/lucianmurmurache/reduced-motion#readme",
+  "keywords": [
+    "css",
+    "accessibility",
+    "prefers-reduced-motion"
+  ],
+  "author": {
+    "name": "Lucian Murmurache",
+    "url": "https://murmurache.dev/"
   },
-  "keywords": [],
-  "author": "Lucian Murmurache",
+  "bugs": "https://github.com/lucianmurmurache/reduced-motion/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucianmurmurache/reduced-motion.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.18",

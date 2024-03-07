@@ -41,7 +41,7 @@ Or link directly in your HTML file:
 
 ## How It Works
 
-`reduced-motion` automatically applies styles that reduce or remove motion when the user has indicated a preference for reduced motion through their system settings.
+`reduced-motion` automatically applies styles that reduce or remove motion when the user has indicated a preference for reduced motion through their system settings. It also removes video backgrounds.
 
 ## Performance concerns
 

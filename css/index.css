@@ -10,4 +10,8 @@
     background-attachment: initial !important;
     scroll-behavior: auto !important;
   }
+
+  video[autoplay] {
+    display: none !important;
+  }
 }

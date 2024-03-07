@@ -1,0 +1,28 @@
+{
+  "name": "reduced-motion",
+  "version": "1.0.0",
+  "description": "A simple, lighweight package that makes sure your animations do not run when the user motion preference is disabled.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "postcss css/*.css --use autoprefixer cssnano -o dist/index.min.css"
+  },
+  "files": [
+    "dist/"
+  ],
+  "exports": {
+    "./css": "./dist/styles.min.css"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "keywords": [],
+  "author": "Lucian Murmurache",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.18",
+    "cssnano": "^6.1.0",
+    "postcss": "^8.4.35",
+    "postcss-cli": "^11.0.0"
+  }
+}

@@ -17,8 +17,10 @@
   "homepage": "https://github.com/lucianmurmurache/reduced-motion#readme",
   "keywords": [
     "css",
+    "a11y",
     "accessibility",
-    "prefers-reduced-motion"
+    "prefers-reduced-motion",
+    "vestibular motion disorder"
   ],
   "author": {
     "name": "Lucian Murmurache",

@@ -1,6 +1,6 @@
 {
   "name": "reduced-motion",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple, lighweight package that makes sure your animations do not run when the user motion preference is disabled.",
   "main": "index.js",
   "style": "./dist/index.min.css",
